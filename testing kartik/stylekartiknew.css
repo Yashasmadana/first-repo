@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Potta one";
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .page1 {
+    position: absolute;
+    width: 100%;
+    height: 780px;
+    left: 0px;
+    top: 1px;
+    background-image: url("final.jpg");
+  }
+
+  .rectangle6 {
+    position: absolute;
+    width: 163px;
+    height: 42px;
+    left: 108px;
+    top: 26px;
+    font-family: "Potta One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    background: #2f8451;
+    border-radius: 59px;
+    color: #000000;
+    padding-left: 10px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 207px;
+    height: 430px;
+    left: 23px;
+    top: 144px;
+
+    font-family: "Potta One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #ffffff;
+  }
+
+  .registerbox {
+    position: relative;
+    /*width: 181px;
+    height: 36px;
+    */
+    left: 90px;
+    top: 672px;
+
+    font-family: "Potta One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 35px;
+
+    color: #000000;
+    background: #3d2699;
+    border-radius: 28px;
+    width: 236px;
+    height: 54px;
+    padding-left: 50px;
+  }
+
+  .page2 {
+    position: absolute;
+    width: 100%;
+    height: 1431px;
+    left: 0px;
+    top: 780px;
+
+    background: rgba(22, 21, 21, 0.95);
+  }
+  .top {
+    position: relative;
+    width: 100%;
+    height: 97px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(126, 40, 179, 0.5) 0%,
+      rgba(126, 40, 179, 0) 100%
+    );
+
+    color: #ffffff;
+    font-size: 35px;
+    padding-left: 15px;
+  }
+
+  .box1 {
+    position: absolute;
+    width: 350px;
+    height: 377px;
+
+    top: 870px;
+
+    background: rgba(167, 55, 109, 0.95);
+    border-radius: 65px;
+  }
+  .box1text {
+    position: relative;
+
+    height: 150px;
+
+    top: 200px;
+
+    font-family: "Potta One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #000000;
+  }
+
+  .box2 {
+    position: relative;
+    width: 350px;
+    height: 351px;
+
+    top: 1230px;
+
+    background: #3eb073;
+    border-radius: 54px;
+  }
+  .box3 {
+    position: absolute;
+    width: 350px;
+    height: 390px;
+
+    top: 1690px;
+
+    background: #4a4d95;
+    border-radius: 58px;
+  }
+
+  .page3 {
+    position: absolute;
+    width: 100%;
+    height: 737px;
+    left: 0px;
+    top: 2214px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(230, 34, 46, 0.2) 1.67%,
+      rgba(19, 115, 224, 0.0397849) 83.96%,
+      rgba(26, 127, 184, 0) 98.55%
+    );
+  }
+  .img7 {
+    position: absolute;
+    width: 272px;
+    height: 255px;
+    left: 39px;
+    top: 50px;
+
+    border-radius: 53px;
+  }
+  .text2 {
+    position: absolute;
+    width: 371px;
+    height: 43px;
+    left: 20px;
+    top: 2px;
+
+    font-family: "Potta One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #000000;
+  }
+  .text3 {
+    position: absolute;
+    width: 371px;
+    height: 43px;
+    left: 20px;
+    top: 380px;
+
+    font-family: "Potta One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #000000;
+  }
+  .page4 {
+    position: absolute;
+    width: 100%;
+    height: 1183px;
+    left: 0px;
+    top: 3040px;
+
+    background: linear-gradient(
+      180deg,
+      #a1dade 0%,
+      rgba(196, 196, 196, 0) 100%
+    );
+  }
+  .text4 {
+    position: absolute;
+    width: 368px;
+    height: 1031px;
+    left: 20px;
+    top: 30px;
+
+    font-family: "Potta One";
+    font-style: normal;
+
+    line-height: 26px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(155, 40, 40, 0.933951) 6.58%,
+      rgba(89, 33, 60, 0.95) 7.94%,
+      rgba(123, 50, 50, 0.299922) 28.96%,
+      #9e2727 46.8%,
+      rgba(107, 55, 55, 0) 58.84%,
+      rgba(139, 45, 45, 0.626766) 75.2%
+    );
+    -webkit-background-clip: text;
+
+    background-clip: text;
+  }
+  .page5 {
+    position: absolute;
+    width: 100%;
+    height: 715px;
+    top: 4113px;
+
+    background: url(green3.jpg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
