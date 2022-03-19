@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 html {
@@ -13,12 +14,20 @@ body {
 }
 
 @media (max-width: 500px) {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
   .page1 {
     position: absolute;
     width: 100%;
     height: 700px;
     left: 0px;
     top: 0px;
+    overflow: hidden;
     background-image: url("image5.jpg");
   }
 
@@ -84,7 +93,7 @@ body {
     height: 1431px;
     left: 0px;
     top: 700px;
-
+    overflow: hidden;
     background: rgba(22, 21, 21, 0.95);
   }
   .top {
@@ -158,6 +167,7 @@ body {
     height: 830px;
     left: 0px;
     top: 2131px;
+    overflow: hidden;
 
     background: rgba(17, 0, 0, 0.95);
   }
@@ -165,7 +175,7 @@ body {
     position: absolute;
     width: 272px;
     height: 255px;
-    left: 39px;
+    padding-left: 39px;
     top: 50px;
 
     border-radius: 53px;
@@ -189,13 +199,13 @@ body {
     position: absolute;
     width: 100%;
     height: 43px;
-    left: 20px;
+    left: 0px;
     top: 380px;
 
     font-family: "Potta One", cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 2px;
+    font-size: 20px;
     line-height: 35px;
     color: white;
   }
@@ -205,7 +215,7 @@ body {
     height: 1183px;
     left: 0px;
     top: 2960px;
-
+    overflow: hidden;
     background: linear-gradient(
       180deg,
       rgba(3, 20, 10, 0.95) 13.85%,
@@ -243,7 +253,7 @@ body {
     width: 100%;
     height: 715px;
     top: 4033px;
-
+    overflow: hidden;
     background: url(query1.jpg);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
