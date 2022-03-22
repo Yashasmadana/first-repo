@@ -20,7 +20,7 @@ body {
   .page1 {
     position: absolute;
     width: 100vw;
-    height: 800px;
+    height: 780px;
     overflow-x: hidden;
     left: 0px;
     top: 0px;
@@ -39,7 +39,6 @@ body {
     font-size: 24px;
     line-height: 35px;
 
-    background: #181a18;
     border-radius: 3px;
     color: #d4c2c2;
     padding-left: 10px;
@@ -75,12 +74,12 @@ body {
     font-size: 34px;
     line-height: 35px;
 
-    color: #000000;
-    background: #3d2699;
-    border-radius: 28px;
-    width: 236px;
+    color: #ffffff;
+    background: #06f31a;
+    border-radius: 52px;
+    width: 120px;
     height: 54px;
-    padding-left: 50px;
+    padding-left: 28px;
   }
 
   .page2 {
@@ -90,7 +89,12 @@ body {
     left: 0px;
     top: 700px;
     overflow-x: hidden;
-    background: rgba(22, 21, 21, 0.95);
+    background: linear-gradient(
+      180deg,
+      #26063a 23.44%,
+      #09083d 45.31%,
+      rgba(1, 0, 5, 0.83) 59.9%
+    );
   }
   .top {
     position: relative;
@@ -112,9 +116,9 @@ body {
 
   .box1 {
     position: absolute;
-    width: 100vw;
+    width: 90vw;
     height: 377px;
-
+    left: 13px;
     top: 870px;
     overflow-x: hidden;
     background: rgba(167, 55, 109, 0.95);
@@ -122,9 +126,11 @@ body {
   }
   .box1text {
     position: relative;
-    border: 12px black solid;
+
     height: 150px;
-    left: 30px;
+
+    top: 200px;
+
     font-family: "Potta One";
     font-style: normal;
     font-weight: 400;
@@ -136,31 +142,31 @@ body {
 
   .box2 {
     position: relative;
-    width: 100vw;
+    width: 90vw;
     height: 351px;
-
+    left: 13px;
     top: 1230px;
     overflow-x: hidden;
     background: #3eb073;
-    border-radius: 54px;
+    border-radius: 40px;
   }
   .box3 {
     position: absolute;
-    width: 100vw;
+    width: 90vw;
     height: 390px;
     overflow-x: hidden;
     top: 1690px;
-
+    left: 13px;
     background: #4a4d95;
-    border-radius: 58px;
+    border-radius: 40px;
   }
 
   .page3 {
     position: absolute;
     width: 100vw;
-    height: 830px;
+    height: 840px;
     left: 0px;
-    top: 2131px;
+    top: 3200px;
     overflow-x: hidden;
 
     background: rgba(22, 21, 21, 0.95);
@@ -172,7 +178,7 @@ body {
     left: 39px;
     top: 50px;
 
-    border-radius: 0px;
+    border-radius: 53px;
   }
   .text2 {
     position: absolute;
@@ -193,29 +199,25 @@ body {
     position: absolute;
     width: 100%;
     height: 43px;
-    left: 0px;
-    top: 330px;
+    left: 13px;
+    top: 380px;
 
     font-family: "Potta One", cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 35px;
     color: white;
   }
   .page4 {
     position: absolute;
     width: 100%;
-    height: 1183px;
+    height: 1073px;
     left: 0px;
-    top: 2960px;
+    top: 2128px;
     overflow-x: hidden;
-    background: linear-gradient(
-      180deg,
-      rgba(3, 20, 10, 0.95) 13.85%,
-      #292614 23.75%,
-      rgba(22, 21, 21, 0.95) 53.44%
-    );
+
+    background-color: rgb(1, 0, 5, 0.83);
   }
   .text4 {
     position: absolute;
@@ -248,5 +250,37 @@ body {
     height: 715px;
     top: 4033px;
     overflow-x: hidden;
+    background: url(query1.jpg);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .container {
+    border: 2px black solid;
+    background-color: #f8f8f8;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type="submit"] {
+    background-color: #f10c92;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #1b0ecc;
   }
 }
