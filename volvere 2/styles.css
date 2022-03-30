@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.main {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(180deg, #004dde 4.48%, #02071a 85.73%);
+}
+
+.page {
+  position: absolute;
+  left: 34.53%;
+  right: 34.22%;
+  top: 17.04%;
+  bottom: 14.72%;
+
+  background: linear-gradient(
+    359.88deg,
+    rgba(16, 40, 81, 0) 0.11%,
+    rgba(27, 62, 135, 0.6) 104%
+  );
+  border-radius: 20px;
+  border: 1px rgba(5, 57, 155, 1) solid;
+}
+
+.circle1 {
+  position: absolute;
+  left: 29.27%;
+  right: 60.47%;
+  top: 7.96%;
+  bottom: 73.8%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(5, 57, 155, 0.6) 0%,
+    rgba(0, 10, 16, 0.6) 100%
+  );
+  border-radius: 100%;
+}
+
+.circle2 {
+  position: absolute;
+  left: 60.47%;
+  right: 29.27%;
+  top: 76.11%;
+  bottom: 5.65%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(5, 57, 155, 0.6) 0%,
+    rgba(0, 10, 16, 0.6) 100%
+  );
+  border-radius: 200%;
+}
+.image {
+  position: relative;
+  left: 100px;
+  right: 34.22%;
+  top: -110px;
+  bottom: 14.72%;
+  background: transparent;
+}
+
+.google {
+  position: absolute;
+  left: 19.15%;
+  right: 41.88%;
+  top: 86.96%;
+  bottom: 20.93%;
+  height: 46px;
+  width: 250px;
+  background: #f4f4f4;
+  border-radius: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-top: 1px;
+  cursor: pointer;
+}
+
+.page input[type="text"],
+input[type="password"] {
+  position: relative;
+  top: 170px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  font-size: 15px;
+  height: 40px;
+  outline: none;
+  left: 100px;
+  width: 300px;
+}
+
+.page input[type="submit"] {
+  position: relative;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #0428e7;
+  color: #fff;
+  font-size: 20px;
+  top: 250px;
+  width: 120px;
+  left: -200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #fff;
+}
+.or {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 290px;
+  left: -280px;
+  color: #fff;
+}
+@media (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(180deg, #05399b 39.9%, #02071a 100%);
+  }
+
+  .page {
+    position: relative;
+    width: 80vw;
+    height: 85vh;
+    left: 44px;
+    top: 16px;
+
+    background: #0c32b7;
+    border-radius: 42px;
+  }
+
+  .image {
+    position: relative;
+    width: 70vw;
+    left: 18px;
+    right: 21.26%;
+    top: -180px;
+    bottom: 76.35%;
+    border-radius: 12px;
+  }
+
+  .page input[type="text"],
+  input[type="password"] {
+    position: relative;
+    left: 12px;
+    width: 60vw;
+    top: 40%;
+  }
+
+  .circle1 {
+    display: none;
+  }
+  .circle2 {
+    display: none;
+  }
+
+  .page input[type="submit"] {
+    position: relative;
+    left: 17.52%;
+    right: 29.44%;
+    top: 51.63%;
+    bottom: 30.89%;
+    cursor: pointer;
+    background: #0428e7;
+    border-radius: 6px;
+  }
+
+  .google {
+    left: 6%;
+    height: 55px;
+    top: 88%;
+    cursor: pointer;
+  }
+  .or {
+    position: absolute;
+    left: 26.98%;
+    right: 38.32%;
+    top: 82.49%;
+    bottom: 23.33%;
+  }
+
+  .login {
+    display: block;
+    position: relative;
+    left: 12px;
+    right: 30.14%;
+    top: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 68.47%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 500px) {
+  .login {
+    display: none;
+  }
+}
